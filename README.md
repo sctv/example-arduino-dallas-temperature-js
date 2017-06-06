@@ -1,5 +1,9 @@
 # DallasTemperature sensor usage example (JavaScript)
 
+## Overview
+
+This app is a DallasTemperature sensor usage example in JavaScript.
+
 ## How to install this app
 
 - Install and start [mos tool](https://mongoose-os.com/software.html)
@@ -8,7 +12,3 @@
 <p align="center">
   <img src="https://mongoose-os.com/images/app1.gif" width="75%">
 </p>
-
-## Overview
-
-This app is a DallasTemperature sensor usage example in JavaScript.
