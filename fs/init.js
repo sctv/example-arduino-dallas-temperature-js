@@ -12,7 +12,7 @@ load('api_arduino_onewire.js');
 load('api_arduino_dallas_temp.js');
 
 // GPIO pin which has sensors data wire connected
-let pin = 13;
+let pin = 21;
 
 // Initialize 1-Wire bus
 let ow = OneWire.create(pin);
