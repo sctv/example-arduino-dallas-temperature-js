@@ -26,7 +26,7 @@ let n = 0;
 let sens = [];
 
 // This function reads data from the DS sensors every 2 seconds
-Timer.set(2000 /* milliseconds */, true /* repeat */, function() {
+Timer.set(2000 /* milliseconds */, Timer.REPEAT, function() {
   if (n === 0) {
     n = dt.getDeviceCount();
     print('Sensors found:', n);
